@@ -1,13 +1,15 @@
 {
   "mcpServers": {
     "terminal-controller": {
-      "command": "/home/gong/Desktop/terminal-controller-mcp/.venv/bin/python",
+      "command": "C:\\Users\\Home\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
       "args": [
-        "/home/gong/Desktop/terminal-controller-mcp/terminal_controller.py"
+        "D:\\LAB\\git\\MCP\\terminal-controller-mcp\\terminal_controller.py"
       ],
       "env": {
-        "PYTHONPATH": "/home/gong/Desktop/terminal-controller-mcp"
-      }
+        "PYTHONPATH": "D:\\LAB\\git\\MCP\\terminal-controller-mcp",
+        "MCP_WORKING_DIR": "${workspaceFolder}"
+      },
+      "cwd": "${workspaceFolder}"
     }
   }
 }
